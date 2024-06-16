@@ -139,7 +139,7 @@ class ForgeService
         if (! $res->ok()) {
             return [];
         }
-
+        usleep(100000);
         return $res->json();
     }
 
@@ -155,7 +155,7 @@ class ForgeService
         if (! $res->ok()) {
             return [];
         }
-
+        usleep(100000);
         return $res->json();
     }
 }
