@@ -140,6 +140,7 @@ class ForgeService
             return [];
         }
         usleep(100000);
+
         return $res->json();
     }
 
@@ -156,6 +157,7 @@ class ForgeService
             return [];
         }
         usleep(100000);
+
         return $res->json();
     }
 }
