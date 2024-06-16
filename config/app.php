@@ -124,4 +124,5 @@ return [
     ],
 
     'forge_api_key' => env('FORGE_API_KEY', false),
+    'forge_server_id' => env('FORGE_SERVER_ID', false),
 ];
