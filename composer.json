@@ -1,9 +1,9 @@
 {
-    "name": "laravel/laravel",
+    "name": "dansup/forge-cf-ips-autoupdate",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["laravel", "framework"],
-    "license": "MIT",
+    "description": "Forge + Cloudflare IP Range Autoupdater",
+    "keywords": ["laravel", "cloudflare", "forge"],
+    "license": "AGPL",
     "require": {
         "php": "^8.2",
         "laravel/framework": "^11.9",
