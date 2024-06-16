@@ -123,4 +123,5 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    'forge_api_key' => env('FORGE_API_KEY', false),
 ];
