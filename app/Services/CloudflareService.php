@@ -11,7 +11,7 @@ class CloudflareService
 
     public static function ips()
     {
-        return Cache::remember(self::CACHE_KEY . 'ips', 19800, function() {
+        return Cache::remember(self::CACHE_KEY.'ips', 19800, function () {
             return self::mapIps();
         });
     }
@@ -19,7 +19,7 @@ class CloudflareService
     public static function mapIps()
     {
         $ips = self::fetchIps();
-        if(!isset($ips['success'], $ips['result']) || !$ips['success']) {
+        if (! isset($ips['success'], $ips['result']) || ! $ips['success']) {
             return [];
         }
 
